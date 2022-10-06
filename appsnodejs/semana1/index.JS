@@ -27,6 +27,6 @@ function handleserver(req, res){
 //2.Crear el server, se utiliza un aocnstante donde se deja almacenado el server, la funcion create server crea un sefvidor y define una funcion para poder definir que va pasar cuando escuche cualquer accion
 const server=http.createServer(handleserver).listen(5000)
 
-
+//Para cerrar el servidso es con control+c
 
 
