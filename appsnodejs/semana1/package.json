@@ -1,0 +1,32 @@
+{
+  "name": "semana1",
+  "version": "1.0.0",
+  "description": "Primer ejercicio de node js",
+  "main": "ejercicio1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon --watch ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Karen11Vargas/appsnodejs.git"
+  },
+  "keywords": [
+    "exports",
+    "module",
+    "require"
+  ],
+  "author": "Karen Vargas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Karen11Vargas/appsnodejs/issues"
+  },
+  "homepage": "https://github.com/Karen11Vargas/appsnodejs#readme",
+  "dependencies": {
+    "sweetalert2": "^11.4.37"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
